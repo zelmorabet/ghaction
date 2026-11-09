@@ -12,5 +12,11 @@ jobs:
     steps:
       - name: welcom message
         run: echo "hellow message"
+
+      - name: checkout repo
+        uses: uses: actions/checkout@v6.1.0
+
+      - name: liste repos
+        run: ls -ltra
       
 
