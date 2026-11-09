@@ -1,0 +1,16 @@
+name: first workflow 
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  test-exemple:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: welcom message
+        run: echo "hellow message"
+      
+
